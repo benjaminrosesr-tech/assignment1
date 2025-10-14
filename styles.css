@@ -1,0 +1,141 @@
+/* Navigation bar style*/
+.Top-Nav {
+   display: block;
+   padding: 5px;
+   font-weight: bold;
+   color: aliceblue;
+   background-color: rgb(6, 6, 104);
+   box-shadow: 5px 5px 10px rgb(27, 27, 27);
+
+}
+
+.Top-Nav a{
+    color: aliceblue;
+}
+ /* profile Image Restraints */
+.profile{
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 100px 0px 100px 100px;
+  box-shadow: 5px 5px 10px rgb(27, 27, 27);
+  width: 25%
+  
+}
+/* background image */
+
+.mainpage {
+    background-image: url(./images/compimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+}
+/* adding a shadow box to text*/
+.shadow-box{
+    padding: 10px;
+    background-color: rgb(240, 248, 255, .5);
+    border-radius: 25px;
+    margin: 40px;
+}
+
+
+/* styling the list */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: none ;
+    
+    gap: 150px;
+    
+}
+
+.column{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(6, 6, 104);
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgb(27, 27, 27);
+}
+
+.column h4{
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.column ul{
+    margin: 0;
+    padding: 0;
+    text-align: left; 
+    margin-bottom: 20px;
+    
+}
+
+.column ol{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.main-container h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* Form styles and aragments */
+input[type="text"] {
+    background-color: rgb(223, 220, 220);
+
+}
+
+input[type="email"] {
+    background-color: rgb(223, 220, 220);
+}
+
+textarea{
+    background-color:rgb(223, 220, 220);
+}
+
+[type="submit"]{
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(58, 58, 58);
+}
+
+/* Text format for h1 h4 h6 */
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h6 {
+    font-style:italic;
+}
+
+h1 {
+    font-family: Permanent Marker, sans-serif;
+    text-align: center;
+    font-weight: 100;
+    color: aliceblue;
+}
+
+h4 {
+    font-family: Permanent Marker, sans-serif;
+    font-weight: 100;
+}
+
+Footer{
+    display:block;
+    background-color:  rgb(6, 6, 104);
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    margin: 40px;
+}
+
+Footer a{
+    color: aliceblue;
+}
